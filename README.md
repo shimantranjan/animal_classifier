@@ -47,5 +47,6 @@ venv\Scripts\activate
 source venv/bin/activate
 
 pip install -r requirements.txt
-
-uvicorn app:app --reload
+venv\Scripts\activate
+uvicorn main:app --reload
+streamlit run app.py
